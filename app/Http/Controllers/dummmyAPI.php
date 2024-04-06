@@ -9,7 +9,7 @@ class dummmyAPI extends Controller
     //
   function getData() {
     $fakeData= [
-        "name"=>"waleed",
+        "name"=>"waleed Ahmed",
         'age'=>23,
         'email'=>'wa353457@gmail.com'
 
