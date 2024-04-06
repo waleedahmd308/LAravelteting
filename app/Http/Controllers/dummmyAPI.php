@@ -8,9 +8,14 @@ class dummmyAPI extends Controller
 {
     //
   function getData() {
-    return [
-        "name"=>"waleed"
+    $fakeData= [
+        "name"=>"waleed",
+        'age'=>23,
+        'email'=>'wa353457@gmail.com'
+
     ];
+
+    return response()->json($fakeData);
     
   }
 }
